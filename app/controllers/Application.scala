@@ -38,9 +38,9 @@ class Application extends Controller {
   
   var products = List (producto1,producto2,producto3,producto4,producto5,producto6)
   
-  var user1 = new User("cc",123,"Alexis","Rodriguez")
-  var user2 = new User("ce",456,"Emmanuel","Velez")
-
+  var user1 = new User("cc",123,"Alexis","Rodriguez",products.filter(product =>product.clientIdType == "cc" &&product.clientIdNumber == 123))
+  var user2 = new User("ce",456,"Emmanuel","Velez",products)
+  var users =List(user1,user2)
     
   val error : JsValue = Json.parse("""{"error":404, " description": "not found"}""")    
 
@@ -71,6 +71,18 @@ class Application extends Controller {
       
   }
     
+  def findClient(documentType:String,documentNumber:Int) = Action{
+      
+      val result =users.filter(user => user.documentType == documentType && user.documentNumber == documentNumber)
+      
+      if(result.size ==0) {
+          Ok(error)
+        }else {
+          Ok(Json.toJson(result)).withHeaders("Access-Control-Allow-Origin" -> "*")
+        }
+      
+  }    
+      
   
   
 }

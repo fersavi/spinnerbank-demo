@@ -13,3 +13,5 @@ GET     /movements/:idProduct                           controllers.Application.
 
 #Consultar productos dato tipo y numero de documento
 GET /user/:documentType/:documentNumber/products   controllers.Application.findProductsClient(documentType:String,documentNumber:Int)
+
+GET /user/:documentType/:documentNumber/productos controllers.Application.findClient(documentType:String,documentNumber:Int)
