@@ -1,7 +1,15 @@
 @(message: String)
 
-@main("Welcome to Play") {
 
-    @play20.welcome(message)
 
-}
+@message
+
+<dl>
+<dt>Para consultar movimiento  de un productos</dt>
+<dd>/movements/ {idProduct}  donde  idProduct para pruebas puede tomar valor de 1, 2 3,4,5 y 6</dd>
+</dl>
+<br>
+<dl>
+<dt>Para consultar productos dado  tipo y numero de documento</dt>
+<dd>/user/{documentType}/{documentoNumber}/products     donde documentType puede ser  cc ó ce... y documentNumber puede ser 123 ó 456</dd>
+</dl>

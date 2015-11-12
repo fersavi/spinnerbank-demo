@@ -10,3 +10,6 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 #Consultar movimientos de una cuenta
 GET     /movements/:idProduct                           controllers.Application.findMovementById(idProduct:Int)
+
+#Consultar productos dato tipo y numero de documento
+GET /user/:documentType/:documentNumber/products   controllers.Application.findProductsClient(documentType:String,documentNumber:Int)

@@ -3,7 +3,7 @@ package models
 import play.api.libs.json.Json
 import org.joda.time.DateTime
 
-case class Product(id:Int,clientIdType: String ,clientId:Int, productType: String,productName: String,  productBalance: Double)
+case class Product(id:Int,clientIdType: String ,clientIdNumber:Int, productType: String,productName: String,  productBalance: Double)
 
 object ProductFormats{
     
