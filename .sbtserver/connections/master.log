@@ -170,3 +170,9 @@ Taking next connection to: 47789
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
 Taking next connection to: 47789
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 18226@ferlinux-N551JK logs at Thu Nov 12 18:19:56 COT 2015, goodbye.

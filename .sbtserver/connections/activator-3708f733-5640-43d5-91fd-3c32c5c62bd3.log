@@ -16920,3 +16920,19 @@ Sending msg to client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3: DetachedLo
 Sending msg to client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3: DetachedLogEvent(LogMessage(debug,> server-post-command-cleanup))
 Sending msg to client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3: ExecutionSuccess(63)
 Sending msg to client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3: DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request))
+Got request: UnlistenToEvents()
+Reading next message from client.
+Sending msg to client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3: (72,ReceivedResponse())
+Got request: UnlistenToValue(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/, , Project: ProjectReference(file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/,root), Config: compile))
+Reading next message from client.
+Got request: UnlistenToValue(AttributeKey[scala.Option[java.lang.String]]("mainClass") in Scope(Build: file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/, , Project: ProjectReference(file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/,root), Config: compile))
+Reading next message from client.
+Got request: UnlistenToBuildChange()
+Reading next message from client.
+Client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3 EOF, shutting down.
+Stopping client.
+Client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3 thread exiting.
+Dropping message (73,ReceivedResponse()) to dead client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3
+Dropping message (74,ReceivedResponse()) to dead client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3
+Dropping message (75,ReceivedResponse()) to dead client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3
+Dropping message (0,ReceivedResponse()) to dead client activator-3708f733-5640-43d5-91fd-3c32c5c62bd3
