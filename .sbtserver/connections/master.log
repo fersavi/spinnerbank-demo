@@ -74,3 +74,57 @@ Taking next connection to: 34838
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
 Taking next connection to: 34838
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 34838
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 34838
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 34838
+New client attempting to connect on port: 44220-34838
+  Address = /127.0.1.1:34838
+Handshake exception on socket: 44220
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 34838
+New client attempting to connect on port: 44221-34838
+  Address = /127.0.1.1:34838
+This client on port 44221 has uuid ddea6498-7683-4946-9e59-742a05551062 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-0a5504fe-bbc7-4ac9-9222-d97de5a55565, play-fork-run-ddea6498-7683-4946-9e59-742a05551062
+Taking next connection to: 34838
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 34838
+New client attempting to connect on port: 44331-34838
+  Address = /127.0.1.1:34838
+Handshake exception on socket: 44331
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 34838
+New client attempting to connect on port: 44332-34838
+  Address = /127.0.1.1:34838
+This client on port 44332 has uuid b159c30b-56a3-4a30-892f-a7881a0572d6 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-0a5504fe-bbc7-4ac9-9222-d97de5a55565, play-fork-run-b159c30b-56a3-4a30-892f-a7881a0572d6
+Taking next connection to: 34838
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 5780@ferlinux-N551JK logs at Fri Nov 13 11:22:37 COT 2015, goodbye.
