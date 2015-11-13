@@ -47,6 +47,7 @@ class Application extends Controller {
   def index = Action {
     Ok(views.html.index("spinner-bank-api-internal"))
   }
+  
 
   def findMovementById(idProduct:Int) = Action{
       // val pr = usuarios.filter(usuario =>  usuario.documentType == typeDocument && usuario.documentNumber == idUser)
@@ -54,7 +55,11 @@ class Application extends Controller {
         if(result.size ==0) {
           Ok(error)
         }else {
-          Ok(Json.toJson(result)).withHeaders("Access-Control-Allow-Origin" -> "*")
+          Ok(Json.toJson(result)).withHeaders(
+          ACCESS_CONTROL_ALLOW_ORIGIN -> "*",
+          ACCESS_CONTROL_ALLOW_METHODS -> "POST, GET, PUT, DELETE, OPTIONS",
+          ACCESS_CONTROL_MAX_AGE -> "300",
+          ACCESS_CONTROL_ALLOW_HEADERS -> "Origin, X-Requested-With, Content-Type, Accept,Referer, User-Agent")
         }
       
   }
@@ -66,7 +71,11 @@ class Application extends Controller {
       if(result.size ==0) {
           Ok(error)
         }else {
-          Ok(Json.toJson(result)).withHeaders("Access-Control-Allow-Origin" -> "*")
+          Ok(Json.toJson(result)).withHeaders(
+          ACCESS_CONTROL_ALLOW_ORIGIN -> "*",
+          ACCESS_CONTROL_ALLOW_METHODS -> "POST, GET, PUT, DELETE, OPTIONS",
+          ACCESS_CONTROL_MAX_AGE -> "300",
+          ACCESS_CONTROL_ALLOW_HEADERS -> "Origin, X-Requested-With, Content-Type, Accept,Referer, User-Agent")
         }
       
   }
