@@ -43,7 +43,7 @@ class Application extends Controller {
   var users =List(user1,user2)
     
   val error : JsValue = Json.parse("""{"error":404, " description": "not found"}""")    
-
+s
   def index = Action {
     Ok(views.html.index("spinner-bank-api-internal"))
   }
@@ -57,8 +57,6 @@ class Application extends Controller {
         }else {
           Ok(Json.toJson(result)).withHeaders(
           ACCESS_CONTROL_ALLOW_ORIGIN -> "*",
-          ACCESS_CONTROL_ALLOW_METHODS -> "POST, GET, PUT, DELETE, OPTIONS",
-          ACCESS_CONTROL_MAX_AGE -> "300",
           ACCESS_CONTROL_ALLOW_HEADERS -> "Origin, X-Requested-With, Content-Type, Accept,Referer, User-Agent")
         }
       

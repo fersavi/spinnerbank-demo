@@ -1,5 +1,5 @@
-New log file opened at Thu Nov 12 22:57:33 COT 2015 by 26130@ferlinux-N551JK
-jvm 26130@ferlinux-N551JK
+New log file opened at Fri Nov 13 10:13:58 COT 2015 by 5780@ferlinux-N551JK
+jvm 5780@ferlinux-N551JK
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/project, returning: (spinnerbank-api-internal-demo-build)
 Loading project definition from /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@3e97aa51, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@39c38e2a, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,7 +69,7 @@ Set current project to spinner-bank-pruebas (in build file:/home/ferlinux/activa
 > server-handle-next-server-request
 > {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@3aac3ece, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@65d24744, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -86,40 +86,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 12/11/2015 10:57:38 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@66d5e0c0, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed 12/11/2015 10:57:39 PM
+Total time: 3 s, completed 13/11/2015 10:14:23 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@4cfab98c, check cycles: false
-Total time: 0 s, completed 12/11/2015 10:57:39 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@3e0dfbbc, check cycles: false
+Total time: 0 s, completed 13/11/2015 10:14:23 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@5895e0eb, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@6aadad05, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -136,342 +114,12 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 12/11/2015 10:57:40 PM
+Total time: 1 s, completed 13/11/2015 10:14:24 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@52754d68, check cycles: false
-Total time: 0 s, completed 12/11/2015 10:57:43 PM
+> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@2b59b50f, check cycles: false
+Total time: 0 s, completed 13/11/2015 10:14:25 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@2b5b527b, check cycles: false
-Total time: 0 s, completed 12/11/2015 10:57:45 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@77dbb6c7, check cycles: false
-Total time: 0 s, completed 12/11/2015 10:57:46 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@37286b04, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/application.conf,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/application.conf)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/routes,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/routes)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/logback.xml,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/logback.xml)
-Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Total time: 2 s, completed 12/11/2015 10:57:49 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 1
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@2735d35, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:08:29 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1aa6c239, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/router/Routes.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/router/Routes.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/router/Routes.scala)
-
-Recompiling all 11 sources: invalidated sources (6) exceeded 50.0% of all sources
-Read from stdout: Compiling 10 Scala sources and 1 Java source to /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes...
-Compiling 10 Scala sources and 1 Java source to /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 1f57da01, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ferlinux/activator-dist-1.3.6/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
-	-classpath
-	/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/ferlinux/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/ferlinux/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/ferlinux/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/ferlinux/activator-dist-1.3.6/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/ferlinux/activator-dist-1.3.6/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/ferlinux/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/ferlinux/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/ferlinux/activator-dist-1.3.6/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/ferlinux/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/ferlinux/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/ferlinux/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/ferlinux/activator-dist-1.3.6/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/ferlinux/activator-dist-1.3.6/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/ferlinux/activator-dist-1.3.6/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/ferlinux/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/ferlinux/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/ferlinux/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.3.jar
-Scala compilation took 9.511098634 s
-Attempting to call com.sun.tools.javac.api.JavacTool@564fc7c5 directly...
-Java compilation took 0.360462233 s
-Java analysis took 0.046093176 s
-Java compile + analysis took 0.412120622 s
-Invalidating /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
-Invalidating (transitively) by inheritance from /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
-Initial set of included nodes: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
-The /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala source file has the following regular definitions changed:
-	checkPreFlight.
-All member reference dependencies will be considered within this context.
-None of the modified names appears in /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/twirl/main/views/html/main.template.scala. This dependency is not being considered for invalidation.
-Name hashing optimization doesn't apply to non-Scala dependency: /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java
-Invalidating /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala...
-Invalidating (transitively) by inheritance from /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala...
-Initial set of included nodes: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-Invalidated by transitive inheritance dependency: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-The /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala source file has the following regular definitions changed:
-	checkPreFlight.
-All member reference dependencies will be considered within this context.
-None of the modified names appears in /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/router/Routes.scala. This dependency is not being considered for invalidation.
-Invalidating /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
-Invalidating (transitively) by inheritance from /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
-Initial set of included nodes: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
-The /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
-	checkPreFlight.
-All member reference dependencies will be considered within this context.
-Name hashing optimization doesn't apply to non-Scala dependency: /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java
-New invalidations:
-	Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java)
-Initial set of included nodes: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java)
-Including /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/twirl/main/views/html/main.template.scala by /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/routes/main/controllers/routes.java
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 10 s, completed 12/11/2015 11:08:42 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@33a895a5, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:08:57 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@1476ddc0, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:08:59 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@386d1ffd, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:09:01 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@481f038a, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/application.conf,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/application.conf)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/routes,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/routes)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/logback.xml,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/logback.xml)
-Total time: 1 s, completed 12/11/2015 11:09:05 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 2
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@6a80e8f8, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:10:38 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@32874a4e, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:10:45 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@54793e1b, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:10:48 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@1f64f396, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:10:49 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@6d044ced, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-
-Read from stdout: Compiling 1 Scala source to /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes...
-Compiling 1 Scala source to /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 47fae43c, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ferlinux/activator-dist-1.3.6/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
-	-classpath
-	/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/ferlinux/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/ferlinux/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/ferlinux/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/ferlinux/activator-dist-1.3.6/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/ferlinux/activator-dist-1.3.6/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/ferlinux/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/ferlinux/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/ferlinux/activator-dist-1.3.6/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/ferlinux/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/ferlinux/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/ferlinux/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/ferlinux/activator-dist-1.3.6/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/ferlinux/activator-dist-1.3.6/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/ferlinux/activator-dist-1.3.6/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/ferlinux/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/ferlinux/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/ferlinux/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.3.jar
-Scala compilation took 2.091547288 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Copy resource mappings: 
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/application.conf,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/application.conf)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/routes,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/routes)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/logback.xml,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/logback.xml)
-Total time: 3 s, completed 12/11/2015 11:11:01 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 3
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@12945b6e, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:11:34 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@7e234089, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:11:59 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@5d752faa, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:12:02 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@7592fbd7, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:12:03 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@496b0463, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/app/controllers/Application.scala)
-
-Read from stdout: Compiling 1 Scala source to /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes...
-Compiling 1 Scala source to /home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 38384377, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ferlinux/activator-dist-1.3.6/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
-	-classpath
-	/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/ferlinux/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/ferlinux/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/ferlinux/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/ferlinux/activator-dist-1.3.6/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/ferlinux/activator-dist-1.3.6/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/ferlinux/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/ferlinux/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/ferlinux/activator-dist-1.3.6/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/ferlinux/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/ferlinux/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/ferlinux/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/ferlinux/activator-dist-1.3.6/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/ferlinux/activator-dist-1.3.6/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/ferlinux/activator-dist-1.3.6/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/ferlinux/activator-dist-1.3.6/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/ferlinux/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/ferlinux/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/ferlinux/activator-dist-1.3.6/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/ferlinux/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/ferlinux/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.3.jar
-Scala compilation took 1.93932548 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Copy resource mappings: 
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/application.conf,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/application.conf)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/routes,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/routes)
-	(/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/conf/logback.xml,/home/ferlinux/activator-dist-1.3.6/spinnerbank-api-internal-demo/target/scala-2.11/classes/logback.xml)
-Total time: 3 s, completed 12/11/2015 11:12:07 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 4
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@1f5b4c54, check cycles: false
-Total time: 0 s, completed 12/11/2015 11:13:21 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-Done executing sbt server engine, result Right(Exit(0))
-Closing listening server socket
-Waiting for socket thread
-Waiting for request processor thread
-Waiting for command engine result
-Returning control to sbt launcher with result Exit(0)
-Closing the 26130@ferlinux-N551JK logs at Thu Nov 12 23:15:01 COT 2015, goodbye.
