@@ -43,7 +43,7 @@ class Application extends Controller {
   var users =List(user1,user2)
     
   val error : JsValue = Json.parse("""{"error":404, " description": "not found"}""")    
-s
+
   def index = Action {
     Ok(views.html.index("spinner-bank-api-internal"))
   }
