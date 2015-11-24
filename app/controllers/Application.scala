@@ -86,6 +86,7 @@ class Application extends Controller {
           Ok(Json.toJson(result)).withHeaders(
           ACCESS_CONTROL_ALLOW_ORIGIN -> "*",
           ACCESS_CONTROL_ALLOW_HEADERS -> "Origin, X-Requested-With, Content-Type, Accept,Referer, User-Agent")
+
         }
       
   }    
